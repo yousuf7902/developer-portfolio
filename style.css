@@ -1,39 +1,101 @@
 body{
     font-family: 'Amatic SC', cursive;
     margin: 0px;
+    
 }
 h1{
     font-size: 50px;
 }
-.orange-color{
-    color: rgb(36, 199, 199);
+h2, h3{
+    font-size:35px;
+    font-weight: 700;
 }
-section{
+p{
+    font-size: 35px;
+    font-weight: 400;
+}
+.orange-color{
+    color: #F88567;
+}
+.flexible-container{
     display: flex;
-    margin-bottom: 150px;
+    margin: 0px 60px 65px 0px;
+    padding: 70px 40px 10px 70px;
+    overflow: hidden;
 }
 .half-width{
     width: 50%;
     padding-left: 5%;
+    text-align: justify;
+    margin: 0px 30px;
+    padding: 0px 70px;
 }
-.half-width{
-    width: 100%;
+.half-width img{
+    width: 90%;
+    height: 90%;
+    position: relative;
+    top: 0px;
+    left: 50px;
 }
 .link-button{
     text-decoration: none;
-    background-image: linear-gradient(cyan, black);
+    background-image: linear-gradient(yellow , #F88567);
     color: black;
     font-weight: 700;
     padding: 8px 35px;
     border-radius: 25px;
+    font-size: 25px;
+    transition: 0.6s;
 }
 .top-banner{
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
     
 }
+.cover img{
+    width: 100%;
+    height: 350px;
+    margin: 50px 0px;
+}
 .dream-big{
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+    margin: 0px;
+    padding: 30px 100px 0px 0px;
+}
+.experience-area{
+    background-image: url("images/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.experience-area > h1{
+    text-align: center;
+    font-size: 50px;
+    text-decoration: underline
+}
+.experience-item{
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    box-shadow: 5px 5px 20px grey;
+    padding: 35px 45px;
+    border-radius: 20px;
+    border-left: 10px solid black;
+}
+#box1{
+    border-left: 7px solid;
+    border-image: linear-gradient(#F88567, yellow);
+    border-image-slice: 1;
+    border-top-right-radius: 150px;
+    
+}
+#box2{
+    border-left: 7px solid;
+    border-image: linear-gradient(#F88567, yellow);
+    border-image-slice: 1;
+    border-top-right-radius: 150px;
+}
+footer p{
+    text-align: center;
 }
